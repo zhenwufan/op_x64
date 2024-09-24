@@ -13,5 +13,3 @@
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generate
 
-# 内核配置
-cp -f config-6.6 /target/linux/x86/config-6.6
